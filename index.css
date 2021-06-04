@@ -1,0 +1,49 @@
+#clock_container
+{
+    position: relative;
+    margin: auto; /* makes the object into the center*/
+    background: url(clock_1.png) no-repeat ;
+    height:40vw; /*view-port height and width*/
+    width: 40vw;
+    background-size: 100%;
+}
+#hour, #minute, #second
+{
+    position: absolute;
+    background: black;
+    border-radius: 10px;;
+    transform-origin: bottom; /* to rotate the clock hands with one end only*/
+}
+#hour
+{
+    height: 18%;
+    width: 2%;
+    top: 32%;
+    left: 48.8%;
+    
+    
+  
+}
+#minute
+{
+    height: 30%;
+    width: 1.5%;
+    top: 19.5%;
+    left: 49.1%;
+    
+    
+    
+     
+}
+#second
+{
+    height: 38%;
+    width: 1%;
+    top: 11.9%;
+    left: 49.3%;
+    opacity: 0.8;
+    
+   
+    
+}
+   
